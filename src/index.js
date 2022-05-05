@@ -1,15 +1,18 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import {CssModules} from "./CssModules";
+// import {StyledJsx} from "./StyledJsx";
 import reportWebVitals from './reportWebVitals';
+// import {StyledComponents} from "./StyledComponents";
+import {Emotion} from "./Emotion";
+import {TailwindCss} from "./TailwindCss";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+// ReactDOM.render(<CssModules/>,document.getElementById("root"));
+// ReactDOM.render(<StyledJsx/>,document.getElementById("root"));
+// ReactDOM.render(<StyledComponents/>,document.getElementById("root"));
+// ReactDOM.render(<Emotion/>,document.getElementById("root"));
+ReactDOM.render(<TailwindCss/>,document.getElementById("root"));
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
